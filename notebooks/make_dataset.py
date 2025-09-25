@@ -33,10 +33,10 @@ def generate_symmetries(input_folder, output_folder):
 
 if __name__ == "__main__":
     input_folder_yes = "[path2yes]/yes" # bale swsto path   
-    output_folder_no = "symmetries_yes" 
+    output_folder_yes = "symmetries_yes" 
 
     input_folder_no = "[path2yes]/no"  #bale swsto path  
     output_folder_no = "symmetries_no
 
     generate_symmetries(input_folder_yes, output_folder_yes)
-    generate_symmetries(input_folder_no, output_folder_np)
+    generate_symmetries(input_folder_no, output_folder_no)
